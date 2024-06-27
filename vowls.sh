@@ -10,6 +10,6 @@ vowel_count=$(echo $word | tr -cd 'aeiou' | wc -c)
 
 var1=$(echo $word | tr -cd 'bcdfghjklmnpqrstvwxyz' | wc -c )
 
-echo "the vwoels counts:$vowel_count"
+echo "the owel count:$vowel_count"
 
 echo "the cons counts:$var1"
